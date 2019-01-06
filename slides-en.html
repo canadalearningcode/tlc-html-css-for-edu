@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/tlc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> Network</p>
+        <p><strong>Password:</strong> Password</p>
+        <hr>
+
+        <h2>Download<br> & Install</h2>
+        <ol class="downloads">
+          <li>Learner files (zip file): <a href="https://github.com/ladieslearningcode/tlc-html-css-for-edu/archive/master.zip">bit.ly/tlc-html-edu</a>
+            <ul>
+              <li>unzip the learner file (<em>extract all</em> if you’re on a PC)</li>
+              <li>open <em>slides-en.html</em> in the browser to view the slides</li>
+            </ul>
+          </li>
+          <li>Contingency: <a href="https://atom.io">atom.io</a></li>
+        </ol>
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/tlc-logo-white.png" alt="Canada Learning Code logo">
+      <h1 class="heading-bg">
+        <span>HTML &amp; CSS <br>for Educators</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23teacherslearningcode&src=typd">#teacherslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <!--<p>In partnership with<br> <img src="framework/img/logo-white.svg" alt="name"></p>-->
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+        ##What do you want to learn?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+       # Coders' Code
+
+       1. Be friendly and welcoming
+       1. Be respectful of others by choosing words and actions with care
+       1. Be mindful of how much space you take up in conversations
+       1. Ask questions
+       1. Try your best (and have fun!)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Agenda
+
+        * Icebreaker (Unplugged)
+        * What is Code / Why Teach Coding?
+        * Intro to HTML
+        * Unplugged activity
+        * Example Lesson Plan
+        * Intro to CSS
+        * Example Lesson Plan
+        * Assessment
+        * Lesson Planning
+        * Next Steps
+
+       </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Learning Goals
+
+        * To have a better understanding of what coding is, and why it's important.<!-- .element: class="delayed" -->
+        * To become more familiar with HTML &amp; CSS.<!-- .element: class="delayed" -->
+        * To experience the satisfaction that comes from being a builder and not just a consumer of technology.<!-- .element: class="delayed" -->
+        * To become aware of the many (free) resources that are out there.<!-- .element: class="delayed" -->
+        * To leave with a practical next step.<!-- .element: class="delayed" -->
+
+       </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        # [teacherslearningcode.com](http://teacherslearningcode.com)
+
+        <img src="framework/img/workshop/tlcwebsite.png" alt="Screenshot of our website">
+
+        All activities used today are available <br>as lesson plans on our website.
+
+       </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Do the Robot
+
+        <img src="framework/img/workshop/robot.png" width="600px;" alt="Robot">
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://openclipart.org/detail/191072/blue-robot"> Blue Robot vector art by Scout</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Learning Outcomes
+
+        * We used simple, clear instructions to perform a task<!-- .element: class="delayed" -->
+        * We created an algorithm (a step-by-step set of operations to be performed to help solve a problem)<!-- .element: class="delayed" -->
+        * We learned the importance of sequence in coding - Computers read and perform commands in order from top to bottom (order matters!)<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # What is Code?
+     </script>
+    </section>
+
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Code is..
+       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO.
+
+       <br>
+       ![Running robot gif](framework/img/workshop/runningrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
+       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
+       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
+       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
+
+       <p> In code, we call a set of instructions an <strong style="color:#ffce03;">algorithm</strong>.</p><!-- .element: class="delayed" -->
+
+     </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Why Teach Coding?
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # We think it’s important for youth to learn to code for a few reasons:
+
+        1. Coding is a superpower<!-- .element: class="delayed" -->
+        1. Coding helps kids develop new ways of thinking<!-- .element: class="delayed" -->
+        1. Coding helps kids understand the world around them better<!-- .element: class="delayed" -->
+        1. Coding can help change the world<!-- .element: class="delayed" -->
+        1. Coding is fun! <!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Intro to HTML
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # What is HTML?
+
+        * HyperText Markup Language<!-- .element: class="delayed" -->
+        * How we build websites!<!-- .element: class="delayed" -->
+        * Coding, not programming (yet)<!-- .element: class="delayed" -->
+
+        <img src="framework/img/workshop/code.jpg" alt="HTML code"><!-- .element: class="delayed" -->
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://pixabay.com/en/code-html-digital-coding-web-1076533/"> Code photo by jamesosborne_ from pixabay</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Why Learn HTML?
+
+        * Creating builders of technology - including the web!<!-- .element: class="delayed" -->
+        * Needed for front-end web<!-- .element: class="delayed" -->
+        * Partnered with other programming languages (like JavaScript)<!-- .element: class="delayed" -->
+        * House analogy<!-- .element: class="delayed" -->
+        * Great first step!<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #How do we build the web?
+
+        Browsers don't understand English, but they do understand HTML &amp; CSS!
+
+        We use HTML to tell the browser what our website looks like, and which content to display. We use CSS to style the website (like colours, fonts).
+
+        HTML tags have ```< >``` brackets and will not be seen on the actual website. We'll just see the content in between.
+
+        ```html
+        <p> This is a paragraph. </p>
+        ```
+
+        <p class="note">Looks like:</p>
+
+        <p>This is a paragraph.</p>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Tags use < and > and /
+
+        ![HTML keys](framework/img/workshop/htmlkeys.jpg)
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Tags always come in pairs
+        * With
+          ```html
+          <p>This is a paragraph.</p>
+          ```
+          ![Happy cat](framework/img/workshop/cathappy.png)
+        * Without
+          ```html
+          <p>This is a paragraph.
+          ```
+          ![Sad cat](framework/img/workshop/catsad.png)
+
+
+          <div class="dropdown">
+                    <button class="dropbtn">Attributions</button>
+                    <div class="dropdown-content">
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-smiling_cat_face_with_open_mouth.svg">Happy cat emoji</a>
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-crying_cat_face.svg">Sad cat emoji</a>
+                    </div>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Perfect Pairs
+        Which of these tags is the perfect pair for ```<p>```?
+
+        1. ```<p>``` <!-- .element: class="delayed" -->
+        1. ```</b>``` <!-- .element: class="delayed" -->
+        1. ```</p>``` <!-- .element: class="delayed" -->
+        1. ```</>``` <!-- .element: class="delayed" -->
+
+        ```<p> is perfect pairs with </p>!``` <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Unplugged Activity
+        ## Source Whisperer
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Source Whisperer
+
+        Pair up! Draw your best guess of what this website will look like:
+
+        ```html
+        <h1> Fido's Been Bad </h1>
+
+        <ul>
+        <li> He peed on the carpet! </li>
+        <li> He barked all night. </li>
+        <li> He ate my shoe. </li>
+        </ul>
+
+        <p> I'm totally going to send him to
+        <a href="http://doggiecentral.ca/"> Dog School 101. </a>
+        </p>
+
+        <img src="fido.jpeg"/>
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Source Whisperer: Solution
+
+        ![Screenshot of website](framework/img/workshop/fidos-been-bad.png)
+
+        Visit the actual website: [bit.ly/source-whisperer-unplugged](http://bit.ly/source-whisperer-unplugged)
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Learning Outcomes
+
+        * We read and interpreted HTML code<!-- .element: class="delayed" -->
+        * We learned the function of both opening and closing tags<!-- .element: class="delayed" -->
+        * We learned how HTML code affects the layout of a website<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Superhero Profiles
+        ## Example Lesson Plan
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # First, we need to research:
+
+        **Who is your biggest role model?**
+
+        * What are they best known for?
+        * Where did they grow up?
+        * What was their childhood like?
+        * What obstacle(s) did they have to overcome?
+        * How did they do this?
+        * What is a memorable quote from this person/character?
+
+        `Write your answers down in a word/text document.`
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        # Getting Started
+
+        * <img src="framework/img/workshop/goggles-screenshot.png" alt="X-Ray Goggles screenshot">
+        * Installing Mozilla X-Ray Goggles:
+          1. Go to https://goggles.mozilla.org
+          1. Make sure your bookmarks bar is showing (under “View” in the top menu)
+          1. Click and drag the pink X-Ray Goggles button into your bookmarks bar
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Code Along
+
+        1. Test it out! Scroll down to the “Sample Activity Page”
+        1. Click on the X-Ray Goggles shortcut in your bookmarks bar to activate
+        1. Change the heading and paragraph text **(2 minutes)**
+        1. Bonus: Try to change an image
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Remix the Web
+
+        <a href="http://thimbleprojects.org/HTTP/glccamp/135907/">See the example project</a>
+
+        Go to [bit.ly/superhero-profile](http://bit.ly/superhero-profile) and remix using the content from your Word document.
+
+        <img src="framework/img/workshop/marvel.png" alt="Marvel super hero">
+
+        *See the [solution sheet](http://bit.ly/superhero-profiles-solution) for support.*
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://marvel.com/characters/9/captain_marvel"> Captain Marvel image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Learning Outcomes
+
+        * We remixed (or 'hacked') websites by editing HTML tags.<!-- .element: class="delayed" -->
+        * We changed the text on websites by editing headings and paragraphs.<!-- .element: class="delayed" -->
+        * We replaced images using image tags.<!-- .element: class="delayed" -->
+        * We learned that we have the power to change our experiences on the web!<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Intro to CSS
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #What is CSS?
+        * Stands for Cascading Style Sheets
+        * Like HTML, CSS communicates with our browser
+        * It makes HTML look good!
+
+        ![Pusheen cat](framework/img/workshop/pusheenunicorn.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/celebrate-halloween-6QyyP2Qy4EfBe">Pusheen gif</a>
+                  </div>
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #What's the Difference?
+        * HTML
+          * Used for content
+            <h3>Headings</h3>
+            Paragraphs<br>
+            ![Images](framework/img/workshop/images.png)<br>
+            <a href="http://css.cool">Links</a><br>
+            * Lists (like this!)
+        * CSS
+          * Used for design
+            <div style="color: Turquoise;">Colours</div>
+            <div style="font-family: Impact, Charcoal, sans-serif !important;">Fonts</div>
+            <div style="background-color: Gold;">Backgrounds</div>
+            <div style="border: 5px solid plum;">Borders</div>
+            <div style="font-size: 72px;">Sizes</div>
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #What's the Difference?
+        * WITHOUT CSS <br><!-- .element: class="delayed" -->
+        ![website without css](framework/img/workshop/without-css.png)<!-- .element: class="delayed" -->
+        * WITH CSS <br><!-- .element: class="delayed" -->
+          ![website with css](framework/img/workshop/with-css.png)<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #What does CSS look like?
+        ##CSS
+        ```css
+        p {
+          color:red;
+        }
+        ```
+
+        ##How does it compare to HTML?
+        ```html
+        <p> This is a paragraph. </p>
+        ```
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #CSS rules use { and } and ;
+
+        ![CSS keys](framework/img/workshop/csskeys.jpg)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Rules
+        * CSS is made up of rules
+        * CSS targets parts of the website and tells them what to look like
+        * General, or specific
+
+        **Try it out:**
+
+        <textarea class="snippet" data-subject="#test">color: gold;
+        </textarea>
+
+        <div id="test" class="example">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nesciunt sint beatae dolor dolorum aliquid quis explicabo vitae numquam.
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Endless Style
+
+        Open [css.cool](css.cool) in a new tab. <br>We'll use this as a reference while styling our websites.
+
+        ![css.cool screenshot](framework/img/workshop/csscool.jpg)
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Innovation Website
+        ## Example Lesson Plan
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        ## What does innovation mean?
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        # What is the Governor General <br>Innovation Award?
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3J7hDsna0rc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Today's Project
+
+        **We’re going to make a website about our chosen award recipient!**
+
+        See the example project about Breanne Everett: [innovation-website-example.glitch.me](https://innovation-website-example.glitch.me)
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Research:
+
+        Choose a Governor General’s award recipient from: https://innovation.gg.ca.
+
+        * Name of Canadian innovator
+        * Their invention or idea (in your own words)
+        * What problem were they trying to solve?
+        * How was their idea developed?
+        * What challenges did they face?
+        * How is their invention innovative?
+
+        `Record your findings in a word document.`
+
+        **Don’t forget to record where your findings are taken from, so you can properly reference your sources later.**
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Getting Started
+
+        Create a free Github account at: [github.com](https://github.com) → We won’t be accessing Github directly, but we’ll use this account to save our websites.
+
+        You will need to verify your account through the confirmation email.
+
+        <img src="framework/img/workshop/github-signup.png" alt="Create an account">
+
+        *(You can also continue without creating an account, but will be unable to save your project.)*
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Getting Started
+
+        Go to [innovation-website-starter.glitch.me](https://innovation-website-starter.glitch.me) and **Remix on Glitch**.
+
+        <img src="framework/img/workshop/remix-on-glitch.png" alt="Preview of website">
+
+        **Sign in**
+        <br><img src="framework/img/workshop/glitch-sign-in.png" alt="Sign in">
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Setting Up Glitch
+
+        1. Select **Wrap Text** to make the code easier to read.
+        1. In order to view changes as you go, select **Show Live**, then arrange the pages beside each other like the image below.
+
+        <img src="framework/img/workshop/window-setup.png" alt="Setting up glitch">
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Creating Your Website
+
+        Complete your website using the content from your Word document.
+
+        **index.html** is where we put our html (content)
+        <br>![index tab](framework/img/workshop/index-tab.png)
+
+        **style.css** is where we put our css (design)
+        <br>![style tab](framework/img/workshop/style-tab.png)
+
+        **Meet your new BFF the [HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)**
+
+        *See the [solution sheet](http://bit.ly/innovation-website-glitch) for support.*
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Learning Outcomes
+
+        * We remixed websites by editing tags in HTML<!-- .element: class="delayed" -->
+        * We added text to our websites using paragraph and heading tags<!-- .element: class="delayed" -->
+        * We added images to our websites using image tags<!-- .element: class="delayed" -->
+        * We designed our websites using CSS<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Share + Discuss
+        ## 3 things that you learned
+        ## 2 curricular connections
+        ## 1 takeaway or action item
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Assessment
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Assessment Considerations
+
+        1. Is the assessment focused on process (formative), product (summative), or both?
+        1. Is the assessment designed by students, teachers, or co-designed?
+        1. Who contributes to completing the assessment? Teachers, students, or both?
+
+        <em>How would you assess an example lesson plan from today?
+          <br>Discuss in groups.</em>
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://scratched.gse.harvard.edu/guide"> Assessment consideration from Scratch Ed</a>
+          </div>
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # How can we Assess Learning with HTML &amp; CSS?
+
+        * Collect quick feedback on coding concepts: [Socrative](http://www.socrative.com/), [Kahoot!](https://getkahoot.com/)
+        * Assess process: Consider the 5 C’s (Communication, Collaboration, Creativity, Critical Thinking, Craftsmanship)
+        * Have students explain their code using `<!--comments-->`
+        * Co-create success criteria and conduct peer evaluations
+        * Share final projects via presentation or Gallery Walk
+        * Focus on design: Split into multiple lessons and track progress using design journals
+
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Lesson Planning
+      </script>
+    </section>
+
+    <section class="slide" style="background-color:#ffce03;" data-toc data-markdown>
+      <script type="text/template">
+        # March's Theme is...
+        ## WATER
+
+        It nourishes, it cleans, it transports. We are made of it and it keeps us alive. What is your favourite thing about water? Who has access to clean water? How might we improve this?
+
+        <strong>Participate in this month's theme by:</strong> Creating a lesson plan about water security.
+
+        Share your project using #clcCode4Change. More info <a href="https://www.canadalearningcode.ca/code-can-change-the-world/">here.</a>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Possible Approaches
+
+        <strong>Create</strong>: Make your own lesson from scratch.
+
+        <strong>Remix</strong>: Use an existing activity as a starting point. Try exploring these [teaching activities](https://learning.mozilla.org/en-US/activities) by Mozilla.
+
+        <strong>Explore</strong>: Choose an existing lesson plan. Check out [canadalearningcode.ca/lesson-plans](https://www.canadalearningcode.ca/lesson-plans/). E.g. [Water Security: Making it Right Again](https://www.canadalearningcode.ca/lessons/water-security-website/).
+
+        <hr>
+        ###Optional: Use this lesson plan template: http://bit.ly/tlc-lesson-plan-template (Create a copy in Google Drive or use the sections as guidelines)
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        # Show and Tell
+
+        <img src="framework/img/workshop/showandtell.gif" alt="Confetti gif">
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://giphy.com/gifs/cartoon-rainbow-spongebob-SKGo6OYe24EBG"> Spongebob gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Stretch Goal: Debugging
+
+        What is a "bug" in coding?
+
+        **Debugging Strategies**
+
+        * Iterating/testing each step
+        * `<!--commenting out-->` and isolating code
+        * Keeping in mind how computers work!
+
+        **Be proactive:** Encourage Pair Programming!
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Stretch Goal: Debugging
+
+        Debugging Checklist:
+
+        1. **Spelling:** Is the element spelled properly? (Remember, it’s cAsE sEnSiTiVe)
+        1. **Perfect Pairs:** Does each element have an opening and closing tag? `<p> Like this </p>`
+        1. **Brackets:** Is there an opening and closing bracket? `< + >` for HTML, or `{ + }` for CSS
+        1. **Colons/Semicolons:** Am I missing any colons or semicolons in my CSS?
+        ```html
+        body {
+          like: this;
+          and: this;
+        }
+        ```
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Stretch Goal: Erase All Kittens
+
+        Test out this video game that introduces learners to HTML through play: **[https://eraseallkittens.com/](https://eraseallkittens.com/)**
+
+        ![Screenshot of game](framework/img/workshop/eak.png)
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Next steps
+        ##Together we'll change the world, one coding lesson at a time.
+
+        Some Ideas:
+
+        * Schedule an unplugged activity into your weekly teaching plan
+        * Dedicate a day of the week to coding. E.g. Tech Tuesday
+        * Share your own coding lessons with the Teachers Learning Code community (<a href="mailto:content@canadalearningcode.ca">email us!</a>)
+        * Have the <a href="http://codemobile.rocks">Code Mobile</a> visit your classroom to facilitate a lesson OR support as you teach
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        # Share your next step on a post-it note
+
+        <img src="framework/img/workshop/postit.jpg" width="400px" alt="Post-it notes on a wall">
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        # Additional Resources
+
+        * Digital Toolbox
+          * <a href="https://www.canadalearningcode.ca/wp-content/uploads/teacher-quick-start-guide.pdf">Quick Start Guide</a>
+          * <a href="https://www.canadalearningcode.ca/wp-content/uploads/clc-teacher-getting-started-xraygoggles-thimble_WEB.pdf">Getting Started with Mozilla<br> X-Ray Goggles and Thimble</a>
+        * <img src="framework/img/workshop/mozilla-toolbox.png" style="border:2px solid #333333;" alt="Scratch toolbox documber cover">
+
+      </script>
+    </section>
+
+    <main>
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Today We Learned...
+
+          <p><strong>I can</strong> teach computational thinking without technology</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> teach coding in ways that kids and youth will enjoy</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> start teaching in small ways</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> start right away</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> do this!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>HTML &amp; CSS <br>for Educators</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23teacherslearningcode&src=typd">#teacherslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/tlc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+
+</body>
+</html>
