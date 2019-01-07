@@ -13,7 +13,7 @@ See slide 54 for suggestions on how learners can incorporate this month’s them
 
 Preview Full Day Slides: https://ladieslearningcode.github.io/tlc-html-css-for-edu/slides-en.html
 
-<!--Preview 2-hour visit Slides (for Code Mobiles): https://ladieslearningcode.github.io/tlc-html-css-for-edu/slides-en-2hours.html-->
+Preview 2-hour visit Slides (for Code Mobiles): https://ladieslearningcode.github.io/tlc-html-css-for-edu/slides-en-2hours.html
 
 Preview Notes: https://ladieslearningcode.github.io/tlc-html-css-for-edu/notes-en.html
 
