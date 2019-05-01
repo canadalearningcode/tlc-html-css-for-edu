@@ -1,12 +1,12 @@
 ## English
-<!--## This content is featured in a monthly theme!
+## This content is featured in a monthly theme!
 
 In 2019, we want to challenge Canadians to pause and think, learn about, share, and work towards solving issues that affect us all on a global scale – while leveraging the power of technology!  More information on monthly themes [here](https://www.canadalearningcode.ca/code-can-change-the-world/)
 
-*March's theme is WATER.*
+*July's theme is FOOD SECURITY.*
 
-See slide 54 for suggestions on how learners can incorporate this month’s theme into their projects - if they choose to participate.
--->
+See slide 55 for suggestions on how learners can incorporate this month’s theme into their projects - if they choose to participate.
+
 # Teachers Learning Code
 # HTML &amp; CSS for Educators
 
