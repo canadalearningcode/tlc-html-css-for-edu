@@ -38,14 +38,14 @@ Here’s an easy way to attribute content back to us - please include it whereve
 Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
 ## Français
-<!--## Ce contenu fait partie d'un thème mensuel!
+## Ce contenu fait partie d'un thème mensuel!
 
 En 2019, nous encourageons la population du Canada à réfléchir, à apprendre, à partager et à collaborer pour résoudre des problèmes qui affectent toute la planète, tout cela, à l'aide de la technologie! Vous trouverez plus d'informations sur les thèmes mensuels en consultant notre [site](https://www.canadalearningcode.ca/fr/le-code-a-le-potentiel-de-changer-le-monde).
 
-*Le thème du mois de mars est l'EAU.*
+*Le thème de juillet est... LA SÉCURITÉ DES ALIMENTS.*
 
-Consultez la diapositive n° 54 pour obtenir des suggestions d'intégration du thème aux projets des apprenants (si ceux-ci souhaitent participer à l'initiative).
--->
+Consultez la diapositive n° 55 pour donner au groupe des idées pour intégrer le thème à leurs projets. Les apprenantes ont le choix d'intégrer le thème à leur projets ou non.
+
 # Enseignants en programmation
 # Le HTML et le CSS pour les enseignants
 
